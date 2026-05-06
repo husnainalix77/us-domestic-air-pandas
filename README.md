@@ -17,7 +17,9 @@ stored in four relational JSON files:
 
 | Task | Description | Technique |
 |------|-------------|-----------|
+| Task 1 | Departures from Nashville International (BNA) | Merge + Boolean Filter |
 | Task 2 | Flights operated by Boeing 737-800 | Merge + Boolean Filter |
+| Task 3 | Maximum passengers in a single segment | idxmax() + Multiple Merges |
 | Task 6 | Total passengers per month | GroupBy + Sum |
 | Task 9 | Airlines serving both JFK and LAX | Set Intersection + Merge |
 | Task 11 | Airbus vs Boeing segment counts | str.contains() + Boolean Mask |
@@ -27,6 +29,7 @@ stored in four relational JSON files:
 - **Boeing dominates** US domestic traffic with 38,588 segments vs Airbus 18,053
 - **March and May** are the busiest months with ~57.7 million passengers each
 - **19 airlines** serve both JFK and LAX simultaneously
+- **Hawaiian Airlines** carried the most passengers in a single segment — 82,812 passengers on the Kahului (OGG) → Honolulu (HNL) route in May
 - **Minneapolis–St Paul (MSP)** is the most connected airport with 202 unique connections
 - **Chicago O'Hare (ORD)** is MSP's busiest partner with 249 combined flight segments
 
