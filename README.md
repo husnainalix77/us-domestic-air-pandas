@@ -13,6 +13,13 @@ stored in four relational JSON files:
 | `airports.json` | 6,267 | Airport names and IATA codes |
 | `aircrafts.json` | 384 | Aircraft model names |
 
+## Data Access
+The dataset files are too large to host on GitHub directly.
+Download all 4 JSON files from the link below and place them
+in the same folder as the notebook before running.
+
+📁 [Download Dataset from Google Drive](https://drive.google.com/drive/folders/1Mxlgx82MFGm6KPKu85ITm94suytDn8Ts?usp=sharing)
+
 ## Analysis Tasks
 
 | Task | Description | Technique |
