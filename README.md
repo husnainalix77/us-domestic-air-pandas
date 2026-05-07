@@ -27,6 +27,8 @@ in the same folder as the notebook before running.
 | Task 1 | Departures from Nashville International (BNA) | Merge + Boolean Filter |
 | Task 2 | Flights operated by Boeing 737-800 | Merge + Boolean Filter |
 | Task 3 | Maximum passengers in a single segment | idxmax() + Multiple Merges |
+| Task 4 | Longest flight segment by distance | idxmax() + Two Merges |
+| Task 5 | Airline with most flight segments | Merge + GroupBy + size() |
 | Task 6 | Total passengers per month | GroupBy + Sum |
 | Task 9 | Airlines serving both JFK and LAX | Set Intersection + Merge |
 | Task 11 | Airbus vs Boeing segment counts | str.contains() + Boolean Mask |
@@ -34,9 +36,11 @@ in the same folder as the notebook before running.
 
 ## Key Findings
 - **Boeing dominates** US domestic traffic with 38,588 segments vs Airbus 18,053
+- **Southwest Airlines** operated the most flight segments with 11,959 total
 - **March and May** are the busiest months with ~57.7 million passengers each
 - **19 airlines** serve both JFK and LAX simultaneously
-- **Hawaiian Airlines** carried the most passengers in a single segment — 82,812 passengers on the Kahului (OGG) → Honolulu (HNL) route in May
+- **Hawaiian Airlines** carried the most passengers in a single segment — 82,812 on Kahului (OGG) → Honolulu (HNL) route in May
+- **Honolulu (HNL) → New York JFK** is the longest domestic route at 4,983 miles
 - **Minneapolis–St Paul (MSP)** is the most connected airport with 202 unique connections
 - **Chicago O'Hare (ORD)** is MSP's busiest partner with 249 combined flight segments
 
@@ -48,8 +52,9 @@ in the same folder as the notebook before running.
 
 ## How to Run
 1. Clone the repository
-2. Place the four JSON data files in the same folder as the notebook
-3. Run all cells from top to bottom
+2. Download the dataset from Google Drive link above
+3. Place all 4 JSON files in the same folder as the notebook
+4. Run all cells from top to bottom
 
 ## Author
 **Husnain Maroof**  
