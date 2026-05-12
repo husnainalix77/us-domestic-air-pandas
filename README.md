@@ -48,7 +48,6 @@ in the same folder as the notebook before running.
 ## Tools Used
 - Python 3.12
 - Pandas
-- NumPy
 - Jupyter Notebook
 
 ## How to Run
