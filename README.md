@@ -30,6 +30,7 @@ in the same folder as the notebook before running.
 | Task 4 | Longest flight segment by distance | idxmax() + Two Merges |
 | Task 5 | Airline with most flight segments | Merge + GroupBy + size() |
 | Task 6 | Total passengers per month | GroupBy + Sum |
+| Task 7 | Airlines Serving Orlando (MCO) as Destination | Two Merges + Filtering |
 | Task 9 | Airlines serving both JFK and LAX | Set Intersection + Merge |
 | Task 11 | Airbus vs Boeing segment counts | str.contains() + Boolean Mask |
 | Task 20 | Airport hub connectivity analysis | pd.concat() + GroupBy |
