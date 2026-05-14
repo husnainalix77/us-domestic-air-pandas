@@ -30,26 +30,31 @@ in the same folder as the notebook before running.
 | Task 4 | Longest flight segment by distance | idxmax() + Two Merges |
 | Task 5 | Airline with most flight segments | Merge + GroupBy + size() |
 | Task 6 | Total passengers per month | GroupBy + Sum |
-| Task 7 | Airlines Serving Orlando (MCO) as Destination | Two Merges + Filtering |
-| Task 8 | Aircrafts Departing from Seattle (SEA)| Two Merges + Filtering |
+| Task 7 | Airlines serving Orlando (MCO) as destination | Merge + Filter + Unique |
+| Task 8 | Aircraft types departing from Seattle (SEA) | Merge + Filter + Unique |
 | Task 9 | Airlines serving both JFK and LAX | Set Intersection + Merge |
-| Task 10 | High Traffic Airports | pd.concat() + Filtering + One Merge |
+| Task 10 | High traffic airports (>1,000 segments) | pd.concat() + value_counts() |
 | Task 11 | Airbus vs Boeing segment counts | str.contains() + Boolean Mask |
+| Task 12 | Airlines operating both Boeing 737-800 and 737-900 | Set Intersection + Merge |
 | Task 20 | Airport hub connectivity analysis | pd.concat() + GroupBy |
 
 ## Key Findings
+- **Atlanta Hartsfield-Jackson** is the busiest airport with 8,489 total segments
 - **Boeing dominates** US domestic traffic with 38,588 segments vs Airbus 18,053
 - **Southwest Airlines** operated the most flight segments with 11,959 total
+- **Only 2 airlines** — Alaska Airlines and United Air Lines — operated both Boeing 737-800 and 737-900
 - **March and May** are the busiest months with ~57.7 million passengers each
 - **19 airlines** serve both JFK and LAX simultaneously
 - **Hawaiian Airlines** carried the most passengers in a single segment — 82,812 on Kahului (OGG) → Honolulu (HNL) route in May
 - **Honolulu (HNL) → New York JFK** is the longest domestic route at 4,983 miles
+- **58 airports** handle more than 1,000 flight segments in this period
 - **Minneapolis–St Paul (MSP)** is the most connected airport with 202 unique connections
 - **Chicago O'Hare (ORD)** is MSP's busiest partner with 249 combined flight segments
 
 ## Tools Used
 - Python 3.12
 - Pandas
+- NumPy
 - Jupyter Notebook
 
 ## How to Run
