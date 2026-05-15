@@ -37,12 +37,14 @@ in the same folder as the notebook before running.
 | Task 11 | Airbus vs Boeing segment counts | str.contains() + Boolean Mask |
 | Task 12 | Airlines operating both Boeing 737-800 and 737-900 | Set Intersection + Merge |
 | Task 13 | Airlines in top 5 for both passengers and segments | GroupBy + nlargest() + Set Intersection |
+| Task 14 | Airline with most diverse fleet | GroupBy + nunique() + Merge |
 | Task 20 | Airport hub connectivity analysis | pd.concat() + GroupBy |
 
 ## Key Findings
 - **Atlanta Hartsfield-Jackson** is the busiest airport with 8,489 total segments
 - **Boeing dominates** US domestic traffic with 38,588 segments vs Airbus 18,053
 - **Southwest Airlines** operated the most flight segments with 11,959 total
+- **Delta Air Lines** has the most diverse fleet with **15 unique aircraft types**
 - **Only 2 airlines** — Alaska Airlines and United Air Lines — operated both Boeing 737-800 and 737-900
 - **3 airlines** — Delta, Southwest and United — rank in top 5 for both passengers and segments
 - **March and May** are the busiest months with ~57.7 million passengers each
